@@ -1,0 +1,205 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.bodyClass{background:grey;}
+
+.mainGrub{
+	
+	background:grey;
+	
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+grid-template-areas:"menu menu"
+					"datos opciones"
+					"pie pie";
+
+}
+
+.datos{
+	width:550px;
+	height:465px;	
+	background:green;
+	grid-area:datos;
+	
+	overflow-y:scroll;
+	
+	display:grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(9, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 6px;
+	
+}
+.opciones{
+	
+height:465px;
+background:red;
+grid-area:opciones;	
+
+}
+
+.NumerosDatos{
+	
+	color:white;
+	font-size:20px;
+	text-align:center;
+
+	
+}
+
+.MenuGrub{
+
+	text-align:center;
+	padding:2px;
+
+	
+}
+
+.butones{
+	height:40px;
+	padding:5px;
+
+}
+
+.btn{
+	width:66px;
+	height:40px;
+	
+}
+
+
+
+.Name{
+	height:30px;
+	width:200px;
+	
+}
+
+
+.AgregarDatos{
+	margin:4px;
+}
+.AgregarDatos label{
+	color:white;
+	font-size:20px;	
+}
+.AgregarDatos input{
+	margin:1px;	
+	height:30px;
+}
+
+.AgregarDatos>.Guardar{
+	width:170px;
+	height:30px;
+		border-radius:2px;
+	border-style:none;
+}
+
+.ActualizarDatos{
+	margin:4px;
+	
+	display:none;
+	
+}
+/*Actualizar*/
+
+.ActualizarDatos label{
+	color:white;
+	font-size:20px;	
+}
+
+.ActualizarDatos input{
+	margin:1px;	
+	height:30px;
+}
+.ActualizarDatos>.Actualizar{
+	width:170px;
+	height:30px;
+		border-radius:2px;
+	border-style:none;
+	
+}
+
+.BorrarDatos{
+	/* margin:4px; */
+	display:none;
+}
+
+.BorrarDatos input{
+	margin:1px;	
+	height:30px;
+}
+
+.BorrarDatos label{
+	color:white;
+	font-size:20px;	
+}
+
+
+.BorrarDatos>.Borrar{
+	width:170px;
+	height:30px;
+	border-radius:2px;
+	border-style:none;
+	
+}
+
+
+
+
+
+
+.pie{
+	
+	background:purple;
+	color:white;
+	font-size:20px;
+	padding:15px;
+	
+	grid-area:pie;
+	
+	text-align:center;
+	
+	
+}
+
+
+
+/*imagen*/ /*imagen*/ /*imagen*/ /*imagen*/
+.contenedor_img{
+		background:blue;	
+		width:80px;
+		height:80px;
+		
+		margin:2px;
+		
+		/* margin-bottom:10px; */
+		margin-top:10px;
+		
+		display:flex;
+		flex-direction:column;
+		justify-content: center;
+		align-items: center;
+		
+		border-radius:10px;
+		
+	}
+	
+	.img{
+		width:50px;
+		height:50px;
+		}
+		
+		
+	.titulo{
+		color:white;
+		text-align:center;
+		font-size:13px;		
+	}
+	
+	

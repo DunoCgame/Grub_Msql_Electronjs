@@ -1,0 +1,122 @@
+*{
+		padding:0px;
+		margin:0px;
+	
+}
+
+.body{
+	background:grey;
+}
+.mainLogin{
+	
+	height:320px;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+    align-items: center;	
+	background:grey;
+	
+}
+
+.formLogin{
+	
+	/* background:red; */
+
+}
+
+.Title{
+	
+	color:white;
+	
+}
+
+.ContainerInput{
+	background:white;
+	
+	display:flex;
+	height:27px;
+	
+}
+
+.logo{
+	width:100px;
+	height:100px;
+	
+	
+}
+
+
+.icon{
+	background:grey;
+	color:white;
+	font-size:20px;
+	padding:5px 3px;
+}
+
+.user_label{
+	color:white;
+	font-size:18px;
+	
+}
+
+.Password_label{
+	color:white;
+	font-size:18px;
+}
+
+.inpustdatos{
+
+	border-style:none;
+	height:26px;
+	background:gray;
+	color:white;
+	border-bottom:0.5px solid white;
+	
+}
+
+.inpustdatos::placeholder { 
+color:white; 
+}
+
+.inpustdatos:focus{  
+	outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+
+
+
+}
+
+
+.buttonC{
+	background:blue;
+	margin-top:10px;
+	/* color:grey;	 */
+	color:white;
+	width:80px;
+	height:45px;
+	
+	font-size:20px;
+	
+	border-radius:15px;
+	
+	border-style:none;
+	border:2px solid grey;
+	
+	}
+	
+	
+	
+.buttonC:hover{
+		
+		/* color:white; */
+		border:2px solid white;
+	}
+	
+	
+		
+	
+		
+	
